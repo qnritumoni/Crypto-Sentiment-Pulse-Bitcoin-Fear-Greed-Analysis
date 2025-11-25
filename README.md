@@ -12,7 +12,7 @@ The Bitcoin Fear and Greed Index is a tool used to analyze market sentiment in t
 
 ## Project Overview
 
-The project was designed to simulate an end-to-end cloud data architecture. Raw Bitcoin Fear & Greed Index data was ingested into Azure Data Lake Storage, processed through an Azure data warehouse layer, and refined into a Data Mart for analytics. The primary goal of the analysis is to understand how fear and greed sentiment values correlate with Bitcoin closing prices and trading volume. Additionally, the project aims to identify patterns such as periods of extreme fear leading to price drops or whether extreme greed aligns with market rallies.Here I am going to Analyze Bitcoin Market Emotions with Data-Driven Insight.
+The project is designed to simulate an end-to-end cloud data architecture. Raw Bitcoin Fear & Greed Index data was ingested into Azure Data Lake Storage, processed through an Azure data warehouse layer, and refined into a Data Mart for analytics. The primary goal of the analysis is to understand how fear and greed sentiment values correlate with Bitcoin closing prices and trading volume. Additionally, the project aims to identify patterns such as periods of extreme fear leading to price drops or whether extreme greed aligns with market rallies.Here I am going to Analyze Bitcoin Market Emotions with Data-Driven Insight.
 
 ## Data Sources
 [bitcoinfearandgreedindex.csv](https://github.com/user-attachments/files/23736622/bitcoinfearandgreedindex.csv)
@@ -25,48 +25,54 @@ This Dataset is being collected Two Sources
 
 ## Content
 
-This dataset specifically includes-
-1.Date
-2.Daily closing prices of Bitcoin, 
-3.Daily volumes of Bitcoin, and 
-4.The Fear and Greed Index values for the overall crypto market.
+The dataset used for this project includes:
 
-This dataset presents a unique opportunity for researchers and analysts to explore the relationship between the prices and volumes of Bitcoin, as well as the sentiment of the overall crypto market. By conducting thorough analysis of this dataset, researchers and analysts can gain valuable insights into the behavior and trends of the cryptocurrency market. This includes examining the daily closing prices and volumes of Bitcoin, as well as the Fear and Greed Index values for the overall crypto market. Through comprehensive analysis, potential patterns, trends, and correlations between price movements, trading volumes, and market sentiment can be identified. These insights can inform investment strategies and decision-making, providing a more nuanced understanding of the dynamics of the cryptocurrency market. This data presents a unique opportunity for researchers and analysts to uncover valuable information that can contribute to a deeper understanding of the cryptocurrency market and its potential implications for investment decision-making.
+Date
+
+Fear & Greed Index Value (0–100)
+
+Sentiment Classification (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
+
+Bitcoin Closing Price
+
+Bitcoin Trading Volume
+
+This dataset presents a unique opportunity for researchers and analysts to explore the relationship between the prices and volumes of Bitcoin, as well as the sentiment of the overall crypto market. By conducting thorough analysis of this dataset, researchers and analysts can gain valuable insights into the behavior and trends of the cryptocurrency market. This includes examining the daily closing prices and volumes of Bitcoin, as well as the Fear and Greed Index values for the overall crypto market. Through comprehensive analysis, potential patterns, trends, and correlations between price movements, trading volumes, and market sentiment can be identified. This data presents a unique opportunity for researchers and analysts to uncover valuable information that can contribute to a deeper understanding of the cryptocurrency market and its potential implications for investment decision-making.
 
 ## Tools are being used
 
-Microsoft Excel
+#### Microsoft Excel
 
-Used for initial data exploration, cleaning, chart creation, and validation
+Used for initial data cleaning, chart creation, and validation
 
 Enabled quick inspection of trends (e.g., sentiment vs. BTC price)
 
-Azure Services
+#### Azure Services
 
-Azure Data Lake Storage Gen2 – to store raw, transformed, and curated data
+- Azure Data Lake Storage Gen2 – to store raw, transformed, and curated data
 
-Azure Synapse Analytics / Azure SQL Warehouse – ETL, data processing, and queries
+- Azure Synapse Analytics / Azure SQL Warehouse – ETL, data processing, and queries
 
-Data Mart – for simplified and optimized analytical consumption
+- Data Mart – for simplified and optimized analytical consumption
 
- Power BI for dashboards and visual insights
+ - Power BI for dashboards and visual insights
 
 ## Technologies Being Used
 
 The project utilizes modern cloud data engineering technologies and practices:
 
-## Data Engineering Technologies
+### Data Engineering Technologies
 
-Azure Data Lake for scalable big-data storage
+- Azure Data Lake for scalable big-data storage
 
 <img width="731" height="391" alt="image" src="https://github.com/user-attachments/assets/08194125-07a8-4648-8373-e176085d1a0f" />
 
 
 <img width="547" height="476" alt="image" src="https://github.com/user-attachments/assets/1b15f06c-e978-4674-bf1d-8548c1128029" />
 
-Parquet/CSV formats for optimized storage/analytics
+- CSV formats for optimized storage/analytics
 
-Azure Synapse SQL / Spark for data transformation
+- Azure Synapse SQL / Spark for data transformation
 
 <img width="963" height="428" alt="image" src="https://github.com/user-attachments/assets/9c963ad8-cf7a-4a95-878a-6df42c031ff3" />
 SQL queries under synapse analysis
@@ -74,9 +80,9 @@ SQL queries under synapse analysis
 
 <img width="945" height="414" alt="image" src="https://github.com/user-attachments/assets/7106c990-865a-427c-aa06-5579a4765f89" />
 SQL QUeries under Chart view
-ETL pipelines for structured data flow (raw → transformed → curated)
+- ETL pipelines for structured data flow (raw → transformed → curated)
 
-Data Analytics Technologies
+### Data Analytics Technologies
 
 Excel Pivot Tables, Charts & Functions for sentiment exploration
 
@@ -106,8 +112,12 @@ Using python
 
 <img width="881" height="497" alt="image" src="https://github.com/user-attachments/assets/e4b53cd8-b110-4b44-a2fc-1a6482ff9f07" />
 
-## Data Analysis
+## Power BI Dashboard
 
+<img width="953" height="546" alt="image" src="https://github.com/user-attachments/assets/8fdf591c-cb29-4b89-baf2-4e2225e1fecb" />
+
+
+<img width="968" height="544" alt="image" src="https://github.com/user-attachments/assets/055002b1-2be7-45b0-99b5-fa6f886daf87" />
 
 ## Expected Outcomes
 
