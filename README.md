@@ -7,9 +7,7 @@ When Investors are getting too greedy, that means the market is due for a correc
 The Bitcoin Fear and Greed Index is a tool used to analyze market sentiment in the cryptocurrency space. It helps identify when the market is experiencing excessive fear, which might indicate undervaluation, or excessive greed, suggesting potential overvaluation.
 
 
-![Image](https://github.com/user-attachments/assets/ed5d4220-1f59-4c44-8661-dc61f1f248ad)
-
-![Image](https://github.com/user-attachments/assets/cb120dd1-46d6-44d6-9af2-e0450de3daf6)
+![Image](https://github.com/user-attachments/assets/ec6d7304-5999-4f4e-b158-fe038653207b)
 
 ## Project Overview
 
