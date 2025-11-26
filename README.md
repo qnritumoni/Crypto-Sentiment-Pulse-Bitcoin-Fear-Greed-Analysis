@@ -1,5 +1,5 @@
 # Crypto Sentiment Pulse-Bitcoin Fear & Greed Analysis
-
+---
 The crypto market behaviour is very emotional. People tend to get greedy when the market is rising people often sell their coins in irrational reaction of seeing red numbers. There are two simple assumptions:First one is,
 Extreme fear can be a sign that investors are too worried. That could be a buying opportunity and the second one is,
 When Investors are getting too greedy, that means the market is due for a correction.Understanding market psychology is therefore essential for analysts, traders, and decision-makers.
