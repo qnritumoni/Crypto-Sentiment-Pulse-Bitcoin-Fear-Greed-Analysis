@@ -55,7 +55,7 @@ Enabled quick inspection of trends (e.g., sentiment vs. BTC price)
 
 - Data Mart – for simplified and optimized analytical consumption
 
- - Power BI for dashboards and visual insights
+- Power BI for dashboards and visual insights
 
 ## Technologies Being Used
 
@@ -63,14 +63,21 @@ The project utilizes modern cloud data engineering technologies and practices:
 
 ### Data Engineering Technologies
 
-- Azure Data Lake for scalable big-data storage
+- Creating Azure Data Lake using data factory for scalable big-data storage
 
-<img width="731" height="391" alt="image" src="https://github.com/user-attachments/assets/08194125-07a8-4648-8373-e176085d1a0f" />
-
+<img width="731" height="39 1" alt="image" src="https://github.com/user-attachments/assets/08194125-07a8-4648-8373-e176085d1a0f" />
+Creating storage account
 
 <img width="547" height="476" alt="image" src="https://github.com/user-attachments/assets/1b15f06c-e978-4674-bf1d-8548c1128029" />
+creating container
 
-- CSV formats for optimized storage/analytics
+- Creating Data warehouse using data bricks.
+
+<img width="836" height="508" alt="image" src="https://github.com/user-attachments/assets/ad15506b-2aea-4d4a-bba8-879382d65d0f" />
+Creating Data bricks
+
+<img width="731" height="423" alt="image" src="https://github.com/user-attachments/assets/d3fdf5f3-5fe0-420c-82ab-f1dc36dbfdaf" />
+Creating Data factory
 
 - Azure Synapse SQL / Spark for data transformation
 
@@ -80,15 +87,21 @@ SQL queries under synapse analysis
 
 <img width="945" height="414" alt="image" src="https://github.com/user-attachments/assets/7106c990-865a-427c-aa06-5579a4765f89" />
 SQL QUeries under Chart view
+
+
 - ETL pipelines for structured data flow (raw → transformed → curated)
+
+<img width="706" height="388" alt="image" src="https://github.com/user-attachments/assets/fd38e91f-a617-45e4-bfd4-eb397498f57a" />
+
+<img width="901" height="383" alt="image" src="https://github.com/user-attachments/assets/b2d74b0f-7c66-4ed0-bddf-2c5600acf94a" />
 
 ### Data Analytics Technologies
 
-Excel Pivot Tables, Charts & Functions for sentiment exploration
+- Excel Pivot Tables, Charts & Functions for sentiment exploration
 
-Sentiment classification logic to map numerical values to categories
+- Sentiment classification logic to map numerical values to categories
 
-Time-series analysis to compare sentiment with Bitcoin market movement
+- Time-series analysis to compare sentiment with Bitcoin market movement
 
 These technologies collectively enable a robust pipeline from raw data ingestion to final business insights.
 
@@ -98,7 +111,7 @@ The dataset was initially collected in CSV form and later I converted it in Exce
 
 ## Exploratory Data Analysis
 
-Using python
+Using python in Azure Data warehouse-
 
 <img width="842" height="524" alt="image" src="https://github.com/user-attachments/assets/ed6e5776-74a2-4c86-850a-369e0a2c6dd8" />
 
@@ -114,10 +127,47 @@ Using python
 
 ## Power BI Dashboard
 
+### Dashboard 1:Executive Dashboard on bitcoin fear & greed analysis
+
 <img width="953" height="546" alt="image" src="https://github.com/user-attachments/assets/8fdf591c-cb29-4b89-baf2-4e2225e1fecb" />
 
+<img width="952" height="463" alt="image" src="https://github.com/user-attachments/assets/c6c5862c-194e-4f08-8b62-0fd7e3aaa799" />
+
+This chart shows Fear & Greed Index over time with a line chart where it shows on 59 th date the value classification is Extreme Fear.
+
+<img width="963" height="451" alt="image" src="https://github.com/user-attachments/assets/ffc6c0b6-83d8-4213-bc47-f80ccb8c8675" />
+
+This column chart shows Bitcoin closing price over time and its high in 2021.
+
+<img width="966" height="448" alt="image" src="https://github.com/user-attachments/assets/6899b5e5-ba0f-41d9-985b-a13f81aa35cd" />
+
+This Line and stacked column chart shows BTC value vs BTC price.
+
+<img width="952" height="451" alt="image" src="https://github.com/user-attachments/assets/80ecba53-fd74-4be6-90bb-6dd4c03cbb57" />
+
+This Donut chart Shows BTC value classification by count and percentage of value.
+
+<img width="966" height="456" alt="image" src="https://github.com/user-attachments/assets/c7a61f14-9b8f-4416-8242-8e189a438e04" />
+
+This Stacked bar chart shows average BTC price by sentiment when the average closing price goes high then the sentiment is Extreme greed and when goes lowest the sentiment is fear.
+
+
+### Dashboard 2:Deep anlysis on bitcoin fear & greed index
 
 <img width="968" height="544" alt="image" src="https://github.com/user-attachments/assets/055002b1-2be7-45b0-99b5-fa6f886daf87" />
+
+<img width="958" height="455" alt="image" src="https://github.com/user-attachments/assets/69bf278a-7972-45b4-9552-ab892a59cf38" />
+
+This Scatter chat shows BTC price vs Value.
+
+<img width="965" height="458" alt="image" src="https://github.com/user-attachments/assets/4a61aca7-6948-40c4-ae47-f998a488294f" />
+
+This Matrix chart shows analyze BTC price by value classification and date.
+
+<img width="962" height="446" alt="image" src="https://github.com/user-attachments/assets/76dfa2f1-e042-47eb-b521-d6117a68ca3d" />
+
+This Key influencers analyze-what influences BTC closing to increade or decrease.And when is BTC closing more likely to be low or high.
+
 
 ## Expected Outcomes
 
