@@ -74,36 +74,43 @@ The project utilizes modern cloud data engineering technologies and practices:
 
 ### Data Engineering Technologies
 
--- Creating Azure Data Lake using data factory for scalable big-data storage
+- Creating Azure Data Lake using data factory for scalable big-data storage
 
 <img width="731" height="39 1" alt="image" src="https://github.com/user-attachments/assets/08194125-07a8-4648-8373-e176085d1a0f" />
+
 Pic:Creating storage account
 
 <img width="547" height="476" alt="image" src="https://github.com/user-attachments/assets/1b15f06c-e978-4674-bf1d-8548c1128029" />
+
 Pic:creating container
 
--- Creating Data warehouse using data bricks.
+- Creating Data warehouse using data bricks.
 
 <img width="836" height="508" alt="image" src="https://github.com/user-attachments/assets/ad15506b-2aea-4d4a-bba8-879382d65d0f" />
+
 Pic:Creating Data bricks
 
 <img width="731" height="423" alt="image" src="https://github.com/user-attachments/assets/d3fdf5f3-5fe0-420c-82ab-f1dc36dbfdaf" />
+
 Pic:Creating Data factory
 
--- Azure Synapse SQL / Spark for data transformation
+- Azure Synapse SQL / Spark for data transformation
 
 <img width="963" height="428" alt="image" src="https://github.com/user-attachments/assets/9c963ad8-cf7a-4a95-878a-6df42c031ff3" />
+
 Pic:SQL queries under synapse analysis
 
 
 <img width="945" height="414" alt="image" src="https://github.com/user-attachments/assets/7106c990-865a-427c-aa06-5579a4765f89" />
+
 Pic:SQL QUeries under Chart view
 
--- ETL pipelines for structured data flow (raw → transformed → curated)
+- ETL pipelines for structured data flow (raw → transformed → curated)
 
 <img width="706" height="388" alt="image" src="https://github.com/user-attachments/assets/fd38e91f-a617-45e4-bfd4-eb397498f57a" />
 
 <img width="901" height="383" alt="image" src="https://github.com/user-attachments/assets/b2d74b0f-7c66-4ed0-bddf-2c5600acf94a" />
+
 Pic:Azure home page that shows all created fields related to the data engineering.
 
 ### Data Analytics Technologies
