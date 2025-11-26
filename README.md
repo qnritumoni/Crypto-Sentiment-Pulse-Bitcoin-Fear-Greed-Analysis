@@ -108,19 +108,22 @@ Pic:Azure home page that shows all created fields related to the data engineerin
 
 ### Data Analytics Technologies
 
--- Excel Pivot Tables, Charts & Functions for sentiment exploration
+- Excel Pivot Tables, Charts & Functions for sentiment exploration
 
--- Sentiment classification logic to map numerical values to categories
+- Sentiment classification logic to map numerical values to categories
 
--- Time-series analysis to compare sentiment with Bitcoin market movement
+- Time-series analysis to compare sentiment with Bitcoin market movement
 
 <img width="850" height="381" alt="image" src="https://github.com/user-attachments/assets/c9fcf7ad-e684-4dfe-9ef4-a338b3108310" />
+
 Pic:Sentiment Distribution
 
 <img width="866" height="357" alt="image" src="https://github.com/user-attachments/assets/c0d463d6-fa3d-4573-90d3-e2a2686071a2" />
+
 Pic:BTC price behaviour in each sentiment zone
 
 <img width="571" height="469" alt="image" src="https://github.com/user-attachments/assets/be94dfda-7726-47c1-9918-2a546a80fab4" />
+
 Pic:BTC price by month & trends of sentiment score by month.
 
 These technologies collectively enable a robust pipeline from raw data ingestion to final business insights.
@@ -195,37 +198,37 @@ This Key influencers analyze-what influences BTC closing to increade or decrease
 
 The expected outcomes of this project include:
 
--- Clear understanding of how sentiment values correlate with Bitcoin price movement
+- Clear understanding of how sentiment values correlate with Bitcoin price movement
 
--- Identification of market behavior during Extreme Fear vs. Extreme Greed periods
+- Identification of market behavior during Extreme Fear vs. Extreme Greed periods
 
--- Ability to visually track sentiment cycles and how they align with large price swings
+- Ability to visually track sentiment cycles and how they align with large price swings
 
--- Establishment of a complete cloud-based data architecture suitable for scaling
+- Establishment of a complete cloud-based data architecture suitable for scaling
 
 ## Insights
 
--- Price vs. Sentiment: BTC closing prices are generally lower during periods of “Extreme Fear” and higher during “Greed” phases.
--- Frequency of Sentiment: Extreme Fear occurs less often than Fear or Greed, but its impact on BTC price movement is significant.
--- Volume Patterns: BTC trading volume spikes during both Extreme Fear and Extreme Greed, indicating heightened market activity during emotional extremes.
--- Short-term Trends: Following Extreme Fear days, BTC often shows a short-term rebound in price within 3–5 days.
---Long-term Trends: Sustained Greed phases often precede a market correction, suggesting that high positive sentiment can signal overbought conditions.
+- Price vs. Sentiment: BTC closing prices are generally lower during periods of “Extreme Fear” and higher during “Greed” phases.
+- Frequency of Sentiment: Extreme Fear occurs less often than Fear or Greed, but its impact on BTC price movement is significant.
+- Volume Patterns: BTC trading volume spikes during both Extreme Fear and Extreme Greed, indicating heightened market activity during emotional extremes.
+- Short-term Trends: Following Extreme Fear days, BTC often shows a short-term rebound in price within 3–5 days.
+-Long-term Trends: Sustained Greed phases often precede a market correction, suggesting that high positive sentiment can signal overbought conditions.
 
 ##  The “Ah-Ha” Things
 
--- The project’s major discoveries or “ah-ha moments” include:
+- The project’s major discoveries or “ah-ha moments” include:
 
--- Strong alignment between sentiment and price
+- Strong alignment between sentiment and price
 
--- Extreme Fear is often a buying signal because BTC prices tend to rebound shortly after.
+- Extreme Fear is often a buying signal because BTC prices tend to rebound shortly after.
 
--- Monitoring the Fear & Greed Index can help anticipate short-term price movements better than relying on price alone.
+- Monitoring the Fear & Greed Index can help anticipate short-term price movements better than relying on price alone.
 
--- Trading volumes spike during emotional extremes, showing that market participants act more impulsively when fear or greed dominates.
+- Trading volumes spike during emotional extremes, showing that market participants act more impulsively when fear or greed dominates.
 
--- Sustained Greed periods can warn of overbought conditions, suggesting the need for caution or profit-taking strategies.
+- Sustained Greed periods can warn of overbought conditions, suggesting the need for caution or profit-taking strategies.
 
--- The full Azure pipeline illustrates how enterprise systems manage, process, and analyze large datasets efficiently
+- The full Azure pipeline illustrates how enterprise systems manage, process, and analyze large datasets efficiently
 
 These insights reveal that sentiment is more than just a numerical scale—it reflects emotional phases that heavily influence market behavior.
 
