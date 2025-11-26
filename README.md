@@ -37,12 +37,12 @@ This Dataset is being collected Two Sources
 
 ### Content
 
--- The dataset used for this project includes:
--- Date
--- Fear & Greed Index Value (0–100)
--- Sentiment Classification (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
--- Bitcoin Closing Price
--- Bitcoin Trading Volume
+- The dataset used for this project includes:
+- Date
+- Fear & Greed Index Value (0–100)
+- Sentiment Classification (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
+- Bitcoin Closing Price
+- Bitcoin Trading Volume
 
 This dataset presents a unique opportunity for researchers and analysts to explore the relationship between the prices and volumes of Bitcoin, as well as the sentiment of the overall crypto market. By conducting thorough analysis of this dataset, researchers and analysts can gain valuable insights into the behavior and trends of the cryptocurrency market. This includes examining the daily closing prices and volumes of Bitcoin, as well as the Fear and Greed Index values for the overall crypto market. Through comprehensive analysis, potential patterns, trends, and correlations between price movements, trading volumes, and market sentiment can be identified. This data presents a unique opportunity for researchers and analysts to uncover valuable information that can contribute to a deeper understanding of the cryptocurrency market and its potential implications for investment decision-making.
 
