@@ -12,11 +12,19 @@ The Bitcoin Fear and Greed Index is a tool used to analyze market sentiment in t
 
 ## Table of content
 
+-[Data Sources](#data-sources)
 -[Project Overview](#project-overview)
+-[Tools are being used](#tools-are-being-used)
+-[Technologies are being Used](#technologies-are-being-used)
+-[Exploratory Data Analysis](#exploratory-data-analysis)
+-[Power BI Dashboard](#power-bi-dashboard)
+-[Expected Outcomes](#expected-outcomes)
+-[Insights](#insights)
+-[The “Ah-Ha” Things](#the-ah-ha-things)
+-[Conclusion](#conclusion)
+-[Referances](#referances)
 
-## Project Overview
 
-The project is designed to simulate an end-to-end cloud data architecture. Raw Bitcoin Fear & Greed Index data was ingested into Azure Data Lake Storage, processed through an Azure data warehouse layer, and refined into a Data Mart for analytics. The primary goal of the analysis is to understand how fear and greed sentiment values correlate with Bitcoin closing prices and trading volume. Additionally, the project aims to identify patterns such as periods of extreme fear leading to price drops or whether extreme greed aligns with market rallies.Here I am going to Analyze Bitcoin Market Emotions with Data-Driven Insight.
 
 ## Data Sources
 [bitcoinfearandgreedindex.csv](https://github.com/user-attachments/files/23736622/bitcoinfearandgreedindex.csv)
@@ -27,7 +35,7 @@ This Dataset is being collected Two Sources
 1.Yahoo Finance
 2.Alternative.me
 
-## Content
+### Content
 
 -- The dataset used for this project includes:
 -- Date
@@ -117,7 +125,7 @@ Pic:BTC price by month & trends of sentiment score by month.
 
 These technologies collectively enable a robust pipeline from raw data ingestion to final business insights.
 
-## Data Cleaning
+### Data Cleaning
 
 The dataset was initially collected in CSV form and later I converted it in Excel and cleaned it and also ingested into Azure Data Lake under the Raw-Data zone. After processing, the cleaned dataset was moved to Transformed-Data and finally into the Data Mart for analytics.
 
@@ -227,5 +235,5 @@ The project demonstrates both the technical architecture of a real-world Azure-b
 
 
 ## Referances
-https://nexxvalida3in-0fa5660.slack.com/lists/T09M6PM6XV1/F09RR2GQA3F?record_id=Rec09RN4QFEJX
+
 https://www.kaggle.com/datasets/adilbhatti/bitcoin-and-fear-and-greed
