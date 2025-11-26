@@ -12,17 +12,17 @@ The Bitcoin Fear and Greed Index is a tool used to analyze market sentiment in t
 
 ## Table of content
 
--[Data Sources](#data-sources)
--[Project Overview](#project-overview)
--[Tools are being used](#tools-are-being-used)
--[Technologies are being Used](#technologies-are-being-used)
--[Exploratory Data Analysis](#exploratory-data-analysis)
--[Power BI Dashboard](#power-bi-dashboard)
--[Expected Outcomes](#expected-outcomes)
--[Insights](#insights)
--[The “Ah-Ha” Things](#the-ah-ha-things)
--[Conclusion](#conclusion)
--[Referances](#referances)
+- [Data Sources](#data-sources)
+- [Project Overview](#project-overview)
+- [Tools are being used](#tools-are-being-used)
+- [Technologies are being Used](#technologies-are-being-used)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Power BI Dashboard](#power-bi-dashboard)
+- [Expected Outcomes](#expected-outcomes)
+- [Insights](#insights)
+- [The “Ah-Ha” Things](#the-ah-ha-things)
+- [Conclusion](#conclusion)
+- [Referances](#referances)
 
 
 
