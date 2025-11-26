@@ -10,6 +10,10 @@ The Bitcoin Fear and Greed Index is a tool used to analyze market sentiment in t
 ![Image](https://github.com/user-attachments/assets/daa5f7f9-2c98-464b-b762-9c0b584ea8f3)
 
 
+## Table of content
+
+-[Project Overview](#project-overview)
+
 ## Project Overview
 
 The project is designed to simulate an end-to-end cloud data architecture. Raw Bitcoin Fear & Greed Index data was ingested into Azure Data Lake Storage, processed through an Azure data warehouse layer, and refined into a Data Mart for analytics. The primary goal of the analysis is to understand how fear and greed sentiment values correlate with Bitcoin closing prices and trading volume. Additionally, the project aims to identify patterns such as periods of extreme fear leading to price drops or whether extreme greed aligns with market rallies.Here I am going to Analyze Bitcoin Market Emotions with Data-Driven Insight.
@@ -25,27 +29,26 @@ This Dataset is being collected Two Sources
 
 ## Content
 
-The dataset used for this project includes:
-
-Date
-
-Fear & Greed Index Value (0–100)
-
-Sentiment Classification (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
-
-Bitcoin Closing Price
-
-Bitcoin Trading Volume
+-- The dataset used for this project includes:
+-- Date
+-- Fear & Greed Index Value (0–100)
+-- Sentiment Classification (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
+-- Bitcoin Closing Price
+-- Bitcoin Trading Volume
 
 This dataset presents a unique opportunity for researchers and analysts to explore the relationship between the prices and volumes of Bitcoin, as well as the sentiment of the overall crypto market. By conducting thorough analysis of this dataset, researchers and analysts can gain valuable insights into the behavior and trends of the cryptocurrency market. This includes examining the daily closing prices and volumes of Bitcoin, as well as the Fear and Greed Index values for the overall crypto market. Through comprehensive analysis, potential patterns, trends, and correlations between price movements, trading volumes, and market sentiment can be identified. This data presents a unique opportunity for researchers and analysts to uncover valuable information that can contribute to a deeper understanding of the cryptocurrency market and its potential implications for investment decision-making.
 
+## Project Overview
+---
+The project is designed to simulate an end-to-end cloud data architecture. Raw Bitcoin Fear & Greed Index data was ingested into Azure Data Lake Storage, processed through an Azure data warehouse layer, and refined into a Data Mart for analytics. The primary goal of the analysis is to understand how fear and greed sentiment values correlate with Bitcoin closing prices and trading volume. Additionally, the project aims to identify patterns such as periods of extreme fear leading to price drops or whether extreme greed aligns with market rallies.Here I am going to Analyze Bitcoin Market Emotions with Data-Driven Insight.
+
 ## Tools are being used
 
-#### Microsoft Excel
+#### Microsoft Excel 
 
-Used for initial data cleaning, chart creation, and validation
+-- Used for initial data cleaning, chart creation, and validation
 
-Enabled quick inspection of trends (e.g., sentiment vs. BTC price)
+-- Enabled quick inspection of trends (e.g., sentiment vs. BTC price)
 
 #### Azure Services
 
@@ -57,51 +60,60 @@ Enabled quick inspection of trends (e.g., sentiment vs. BTC price)
 
 - Power BI for dashboards and visual insights
 
-## Technologies Being Used
+## Technologies are being Used
 
 The project utilizes modern cloud data engineering technologies and practices:
 
 ### Data Engineering Technologies
 
-- Creating Azure Data Lake using data factory for scalable big-data storage
+-- Creating Azure Data Lake using data factory for scalable big-data storage
 
 <img width="731" height="39 1" alt="image" src="https://github.com/user-attachments/assets/08194125-07a8-4648-8373-e176085d1a0f" />
-Creating storage account
+Pic:Creating storage account
 
 <img width="547" height="476" alt="image" src="https://github.com/user-attachments/assets/1b15f06c-e978-4674-bf1d-8548c1128029" />
-creating container
+Pic:creating container
 
-- Creating Data warehouse using data bricks.
+-- Creating Data warehouse using data bricks.
 
 <img width="836" height="508" alt="image" src="https://github.com/user-attachments/assets/ad15506b-2aea-4d4a-bba8-879382d65d0f" />
-Creating Data bricks
+Pic:Creating Data bricks
 
 <img width="731" height="423" alt="image" src="https://github.com/user-attachments/assets/d3fdf5f3-5fe0-420c-82ab-f1dc36dbfdaf" />
-Creating Data factory
+Pic:Creating Data factory
 
-- Azure Synapse SQL / Spark for data transformation
+-- Azure Synapse SQL / Spark for data transformation
 
 <img width="963" height="428" alt="image" src="https://github.com/user-attachments/assets/9c963ad8-cf7a-4a95-878a-6df42c031ff3" />
-SQL queries under synapse analysis
+Pic:SQL queries under synapse analysis
 
 
 <img width="945" height="414" alt="image" src="https://github.com/user-attachments/assets/7106c990-865a-427c-aa06-5579a4765f89" />
-SQL QUeries under Chart view
+Pic:SQL QUeries under Chart view
 
-
-- ETL pipelines for structured data flow (raw → transformed → curated)
+-- ETL pipelines for structured data flow (raw → transformed → curated)
 
 <img width="706" height="388" alt="image" src="https://github.com/user-attachments/assets/fd38e91f-a617-45e4-bfd4-eb397498f57a" />
 
 <img width="901" height="383" alt="image" src="https://github.com/user-attachments/assets/b2d74b0f-7c66-4ed0-bddf-2c5600acf94a" />
+Pic:Azure home page that shows all created fields related to the data engineering.
 
 ### Data Analytics Technologies
 
-- Excel Pivot Tables, Charts & Functions for sentiment exploration
+-- Excel Pivot Tables, Charts & Functions for sentiment exploration
 
-- Sentiment classification logic to map numerical values to categories
+-- Sentiment classification logic to map numerical values to categories
 
-- Time-series analysis to compare sentiment with Bitcoin market movement
+-- Time-series analysis to compare sentiment with Bitcoin market movement
+
+<img width="850" height="381" alt="image" src="https://github.com/user-attachments/assets/c9fcf7ad-e684-4dfe-9ef4-a338b3108310" />
+Pic:Sentiment Distribution
+
+<img width="866" height="357" alt="image" src="https://github.com/user-attachments/assets/c0d463d6-fa3d-4573-90d3-e2a2686071a2" />
+Pic:BTC price behaviour in each sentiment zone
+
+<img width="571" height="469" alt="image" src="https://github.com/user-attachments/assets/be94dfda-7726-47c1-9918-2a546a80fab4" />
+Pic:BTC price by month & trends of sentiment score by month.
 
 These technologies collectively enable a robust pipeline from raw data ingestion to final business insights.
 
@@ -126,10 +138,11 @@ Using python in Azure Data warehouse-
 <img width="881" height="497" alt="image" src="https://github.com/user-attachments/assets/e4b53cd8-b110-4b44-a2fc-1a6482ff9f07" />
 
 ## Power BI Dashboard
-
+---
 ### Dashboard 1:Executive Dashboard on bitcoin fear & greed analysis
 
 <img width="953" height="546" alt="image" src="https://github.com/user-attachments/assets/8fdf591c-cb29-4b89-baf2-4e2225e1fecb" />
+
 
 <img width="952" height="463" alt="image" src="https://github.com/user-attachments/assets/c6c5862c-194e-4f08-8b62-0fd7e3aaa799" />
 
@@ -156,6 +169,7 @@ This Stacked bar chart shows average BTC price by sentiment when the average clo
 
 <img width="968" height="544" alt="image" src="https://github.com/user-attachments/assets/055002b1-2be7-45b0-99b5-fa6f886daf87" />
 
+
 <img width="958" height="455" alt="image" src="https://github.com/user-attachments/assets/69bf278a-7972-45b4-9552-ab892a59cf38" />
 
 This Scatter chat shows BTC price vs Value.
@@ -173,65 +187,39 @@ This Key influencers analyze-what influences BTC closing to increade or decrease
 
 The expected outcomes of this project include:
 
-Clear understanding of how sentiment values correlate with Bitcoin price movement
+-- Clear understanding of how sentiment values correlate with Bitcoin price movement
 
-Identification of market behavior during Extreme Fear vs. Extreme Greed periods
+-- Identification of market behavior during Extreme Fear vs. Extreme Greed periods
 
-Ability to visually track sentiment cycles and how they align with large price swings
+-- Ability to visually track sentiment cycles and how they align with large price swings
 
-Establishment of a complete cloud-based data architecture suitable for scaling
+-- Establishment of a complete cloud-based data architecture suitable for scaling
 
-Foundational analytics for future dashboards that compare sentiment across countries or exchanges
-## Recomendation
+## Insights
 
-## Limitation What Would Be the “Ah-Ha” Things?
+-- Price vs. Sentiment: BTC closing prices are generally lower during periods of “Extreme Fear” and higher during “Greed” phases.
+-- Frequency of Sentiment: Extreme Fear occurs less often than Fear or Greed, but its impact on BTC price movement is significant.
+-- Volume Patterns: BTC trading volume spikes during both Extreme Fear and Extreme Greed, indicating heightened market activity during emotional extremes.
+-- Short-term Trends: Following Extreme Fear days, BTC often shows a short-term rebound in price within 3–5 days.
+--Long-term Trends: Sustained Greed phases often precede a market correction, suggesting that high positive sentiment can signal overbought conditions.
 
-The project’s major discoveries or “ah-ha moments” include:
+##  The “Ah-Ha” Things
 
-Strong alignment between sentiment and price
+-- The project’s major discoveries or “ah-ha moments” include:
 
-Extreme Fear often corresponds with price dips
+-- Strong alignment between sentiment and price
 
-Greed phases tend to precede price surges
+-- Extreme Fear is often a buying signal because BTC prices tend to rebound shortly after.
 
-Volume spikes appear during high fear or high greed periods, showing increased market activity
+-- Monitoring the Fear & Greed Index can help anticipate short-term price movements better than relying on price alone.
 
-Sentiment shifts often occur before major price changes, making sentiment a potential leading indicator
+-- Trading volumes spike during emotional extremes, showing that market participants act more impulsively when fear or greed dominates.
 
-The full Azure pipeline illustrates how enterprise systems manage, process, and analyze large datasets efficiently
+-- Sustained Greed periods can warn of overbought conditions, suggesting the need for caution or profit-taking strategies.
+
+-- The full Azure pipeline illustrates how enterprise systems manage, process, and analyze large datasets efficiently
 
 These insights reveal that sentiment is more than just a numerical scale—it reflects emotional phases that heavily influence market behavior.
-
-## Findings / Analysis
-
-After cleaning and loading the data into the Azure environment, a detailed examination of the sentiment trends and Bitcoin pricing was performed. The analysis showed several notable patterns:
-
-1. Extreme Fear Periods
-
-Dates with sentiment values below 20 (e.g., 2/2/2018, 2/7/2018) often align with sharp declines in Bitcoin prices.
-
-Trading volume increases during fear, suggesting panic selling or uncertainty.
-
-2. Greed & Extreme Greed Periods
-
-Values above 60–70 (e.g., 2/15/2018 onwards) correspond to price recovery and upward movement.
-
-Investors appear more active during greed phases, often chasing rising prices.
-
-3. Neutral Sentiment
-
-Neutral periods show market stabilization, with fewer large swings.
-
-4. Time-Series Trends
-
-The sentiment index acts as a market psychology barometer, giving early hints at trend reversals.
-
-Visual inspection of charts suggests sentiment changes precede price movements by a few days.
-
-5. Data Engineering Validation
-
-Lake → Warehouse → Mart pipeline ensures clean, reliable, and structured data, enabling smooth analytical queries.
-
 
 ## Conclusion
 
@@ -239,3 +227,5 @@ The project demonstrates both the technical architecture of a real-world Azure-b
 
 
 ## Referances
+https://nexxvalida3in-0fa5660.slack.com/lists/T09M6PM6XV1/F09RR2GQA3F?record_id=Rec09RN4QFEJX
+https://www.kaggle.com/datasets/adilbhatti/bitcoin-and-fear-and-greed
