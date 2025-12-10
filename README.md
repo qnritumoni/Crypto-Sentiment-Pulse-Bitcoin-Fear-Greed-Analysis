@@ -77,7 +77,8 @@ The project utilizes modern cloud data engineering technologies and practices:
 - Creating Azure Data Lake using data factory for scalable big-data storage
 
 
-<img width="731" height="39 1" alt="image" src="https://github.com/user-attachments/assets/08194125-07a8-4648-8373-e176085d1a0f" />
+<img width="938" height="532" alt="image" src="https://github.com/user-attachments/assets/b0178ed0-0039-43fb-af6b-1f5b2d54ab60" />
+
 
 Pic:Creating storage account
 
