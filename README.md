@@ -37,7 +37,7 @@ This Dataset is being collected Two Sources
 
 ### Content
 
-- The dataset used for this project includes:
+ The dataset used for this project includes:
 - Date
 - Fear & Greed Index Value (0–100)
 - Sentiment Classification (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
@@ -76,6 +76,7 @@ The project utilizes modern cloud data engineering technologies and practices:
 
 - Creating Azure Data Lake using data factory for scalable big-data storage
 
+
 <img width="731" height="39 1" alt="image" src="https://github.com/user-attachments/assets/08194125-07a8-4648-8373-e176085d1a0f" />
 
 Pic:Creating storage account
@@ -85,6 +86,7 @@ Pic:Creating storage account
 Pic:creating container
 
 - Creating Data warehouse using data bricks.
+
 
 <img width="836" height="508" alt="image" src="https://github.com/user-attachments/assets/ad15506b-2aea-4d4a-bba8-879382d65d0f" />
 
@@ -198,7 +200,7 @@ This Matrix chart shows analyze BTC price by value classification and date.
 
 <img width="962" height="446" alt="image" src="https://github.com/user-attachments/assets/76dfa2f1-e042-47eb-b521-d6117a68ca3d" />
 
-This Key influencers analyze-what influences BTC closing to increade or decrease.And when is BTC closing more likely to be low or high.
+This Key influencers analyze-what influences BTC closing to increase or decrease. And when is BTC closing more likely to be low or high.
 
 
 ## Expected Outcomes
